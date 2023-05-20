@@ -39,7 +39,7 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "gdalvi94", //i.e."johnDoe12Gh"
-  reposLength: 6,
+  reposLength: 4,
   specificRepos: [],
 };
 
@@ -49,14 +49,14 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
+    { name: "Python", value: 70 },
+    { name: "SQL", value: 90 },
+    { name: "Java", value: 85 },
+    { name: "C/C++", value: 80 },
     { name: "JavaScript", value: 90 },
     { name: "React", value: 65 },
     { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "ML", value: 80 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
