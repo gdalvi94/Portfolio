@@ -31,7 +31,7 @@ const about = {
   imageSize: 375,
   message:
     "I am Gayatri Dalvi an Information Systems Graduate Student at Northeastern University. I have hands-on knowledge developing dynamic websites, utilizing technologies like HTML, CSS, SCSS, React.js, Node.js and MongoDb . Efficient working in a collaborative environment and determined to learn new skills. ",
-  resume: "",
+  resume: require("../editable-stuff/resume.pdf"),
 };
 
 // PROJECTS SECTION
@@ -39,33 +39,10 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "gdalvi94", //i.e."johnDoe12Gh"
-  reposLength: 4,
+  reposLength: 6,
   specificRepos: [],
 };
 
-// Leadership SECTION
-const leadership = {
-  show: false,
-  heading: "Leadership",
-  message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
-  images: [
-    { 
-      img: require("../editable-stuff/profile_pic.png"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
-    },
-    { 
-      img: require("../editable-stuff/profile_pic.png"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
-    },
-  ],
-  imageSize: {
-    width:"615",
-    height:"450"
-  }
-};
 
 // SKILLS SECTION
 const skills = {
@@ -103,25 +80,20 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'Programmer Analyst Intern',// Here Add Company Name
+      companylogo: require('../assets/img/cognizant.png'),
+      date: 'February 2022 – June 2022',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Machine Learning Intern',
+      companylogo: require('../assets/img/forsk.png'),
+      date: 'December 2020 – January 2021',
     },
   ]
 }
 
-// Blog SECTION
-// const blog = {
-//   show: false,
-// };
-
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, repos, skills, getInTouch, experiences };
